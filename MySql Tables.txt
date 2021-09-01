@@ -1,0 +1,36 @@
+create table av_quiz
+(
+    Sub_Name varchar(2000) ,
+    Quiz_No int 
+);
+
+create table marks   
+(
+    Std_name varchar(2000) ,
+    Subj varchar(2000) ,
+    quiz_No int ,
+    marks int
+);
+
+create table questions
+(
+    Subject varchar(2000) , 
+    Quiz_No int , 
+    Question_No int ,
+    question varchar(2000) ,
+    Answer int , 
+    A varchar(2000) ,
+    B varchar(2000) ,
+    C varchar(2000) ,
+    D varchar(2000) 
+);
+
+create table user
+(
+    User_Name varchar(2000) ,
+    User_Id int AUTO_INCREMENT ,
+    primary key(User_Id),
+    User_Pass varchar(2000) ,
+    Flag int
+);
+
