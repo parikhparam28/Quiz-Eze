@@ -22,7 +22,7 @@ class Teacher
             Scanner sc_int=new Scanner(System.in);
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
             String quiz_subj = null ;
             int quiz_no = 0 ; int done2 = 0 ;
@@ -217,7 +217,7 @@ class Teacher
             Scanner sc_int=new Scanner(System.in);
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
             String quiz_subj = null ;
             int quiz_no = 0 ;
@@ -298,7 +298,7 @@ class Teacher
         try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
             Scanner CIN_INT = new Scanner(System.in);
             Scanner CIN = new Scanner(System.in);
@@ -390,7 +390,7 @@ class Student
         try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
             Scanner CIN_INT = new Scanner(System.in);
             Scanner CIN = new Scanner(System.in);
@@ -452,7 +452,7 @@ class Student
         {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
             Scanner CIN_INT = new Scanner(System.in);
             Scanner CIN = new Scanner(System.in);
@@ -554,7 +554,7 @@ class Student
         try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
             Scanner CIN_INT = new Scanner(System.in);
             Scanner CIN = new Scanner(System.in);
@@ -648,7 +648,7 @@ class Log_In
             Scanner s = new Scanner(System.in);
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
 
             int done = 0 ;
@@ -730,7 +730,7 @@ class Sign_Up
             Scanner s = new Scanner(System.in);
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
 
             System.out.println("Press 1 For Student");
@@ -817,7 +817,7 @@ public class Quiz_Eze
         {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "avpp2468");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Quiz_Eze" , "root" , "password");
 
             System.out.println("Welcome To Quiz-Eze. This is one place solution for creating and solving online quizzes for Teachers and Students");
             System.out.println("Press 1 for Login ");
